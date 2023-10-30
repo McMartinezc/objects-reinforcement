@@ -78,3 +78,6 @@ const users = [
  * Recorre el array de usuarios y encuentra aquél usuario que tiene más 'skills' de todos.
  * El resultado de tu búsqueda debería ser Asab.
  */
+const userSkillsSort = users.sort((a,b)=> b.skills.length - a.skills.length)
+const userMoreSkills = userSkillsSort[0];
+console.log(userMoreSkills.name);
