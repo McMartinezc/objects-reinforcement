@@ -62,7 +62,7 @@ console.log("número de vuelo: ", flightReservation.flightNumber);
 console.log("nombre de la aerolíne: ", flightReservation.airline);
 
 // 3. Muestra TODOS los datos sobre la fecha de salida del vuelo
-console.log("fecha de salida del vuelo: ", flightReservation.departure.date);
+console.log("fecha de salida del vuelo: ", flightReservation.departure);
 
 // 4. Muestra únicamente el nombre aeropuerto de llegada
 console.log("nombre aeropuerto de llegada: ", flightReservation.arrival.airport);
